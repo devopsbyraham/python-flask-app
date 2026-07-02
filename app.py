@@ -10,7 +10,7 @@ def health_check():
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Jenkins to ArgoCD GitOps Pipeline Active!"}), 200
+    return jsonify({"message": "THIS IS APP V-1.0"}), 200
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
