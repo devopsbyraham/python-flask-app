@@ -5,8 +5,8 @@ pipeline {
         DOCKER_IMAGE = "rahamshaik/flask-backend"
         IMAGE_TAG = "v1.0.${BUILD_NUMBER}"
         // Replace with your actual Config Repo URL
-        CONFIG_REPO = "github.com/devopsbyraham/python-k8s-config.git" 
-    }
+        CONFIG_REPO = "github.com/devopsbyraham/python-app-k8s-manifest.git"
+     }
 
     stages {
         stage('Checkout') {
