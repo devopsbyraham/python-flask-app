@@ -33,6 +33,13 @@ MENU = [
         "description": "Warm molten center, vanilla bean ice cream",
         "price": 8.00,
         "tags": ["dessert"]
+    },
+    {
+        "id": 5,
+        "name": "Paneer Tikka",
+        "description": "Warm molten center, vanilla bean ice cream",
+        "price": 5.00,
+        "tags": ["Veg"]
     }
 ]
 
